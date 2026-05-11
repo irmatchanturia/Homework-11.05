@@ -13,7 +13,7 @@ let sum=0;
 for(let i=0; i< numbers.length; i++){
     sum=sum + numbers[i];
 }
-    console.log(sum)
+console.log(sum)
 
 // დაბეჭდე მხოლოდ ლუწი რიცხვები 
 let number = [3, 7, 10, 15, 20]
@@ -29,9 +29,10 @@ let evenNum = [];
 for(let i = 0; i< number.length; i++){
     if(number[i]%2==0){
         evenNum.push(number[i])
-        console.log(evenNum)
     }
 }
+console.log(evenNum)
+
 
 // დაბეჭდე ის რიცხვები რომლებიც მეტია 10-ზე 
 let numb = [3, 7, 10, 15, 20]
@@ -54,7 +55,7 @@ for(let i = 0; i < numbr.length; i++){
     summ=summ + numbr[i];
     averageNum=summ/numbr.length;
 }
-    console.log(averageNum)
+console.log(averageNum)
  
 // იპოვე ყველაზე გრძელი სიტყვა.  
 let words = ["cat", "elephant", "dog", "computer"];
